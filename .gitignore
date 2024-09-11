@@ -1,0 +1,27 @@
+# Archivos de configuración
+*.config
+
+# Archivos específicos de SSIS
+*.dtsConfig
+
+# Archivos específicos de usuario de Visual Studio
+*.user
+*.vspscc
+*.vssscc
+
+# Carpetas de compilación
+bin/
+obj/
+
+# Archivos de caché y temporales
+*.cache
+*.cd
+*.tmp
+*.log
+
+# Archivos de esquema de base de datos
+*.DatabaseSchema
+
+# Archivos de copia de seguridad
+*.bak
+*_Backup.dtsx
