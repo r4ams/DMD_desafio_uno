@@ -6,6 +6,9 @@
 -- Tiempo de generación: 20-08-2019 a las 21:28:16
 -- Versión del servidor: 10.1.26-MariaDB
 -- Versión de PHP: 7.1.9
+CREATE DATABASE db_roaming_costarica;
+
+USE db_roaming_costarica;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
