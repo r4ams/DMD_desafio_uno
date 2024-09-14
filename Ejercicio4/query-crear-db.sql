@@ -10,9 +10,9 @@ CREATE TABLE customer_activities (
     income DECIMAL(10, 2),             -- Ingresos del cliente con 2 decimales
     average_visits DECIMAL(5, 2),      -- Promedio de visitas con 2 decimales
     age INT,                           -- Edad del cliente
-    use_sauna BIT,                     -- Indicador de uso de sauna (0 = No, 1 = SÃ­)
-    use_hidro BIT,                     -- Indicador de uso de hidroterapia (0 = No, 1 = SÃ­)
-    use_yoga BIT,                      -- Indicador de uso de yoga (0 = No, 1 = SÃ­)
-    use_massage BIT,                   -- Indicador de uso de masaje (0 = No, 1 = SÃ­)
+    use_sauna BIT,                     -- Indicador de uso de sauna (0 = No, 1 = Sí)
+    use_hidro BIT,                     -- Indicador de uso de hidroterapia (0 = No, 1 = Sí)
+    use_yoga BIT,                      -- Indicador de uso de yoga (0 = No, 1 = Sí)
+    use_massage BIT,                   -- Indicador de uso de masaje (0 = No, 1 = Sí)
 	branch_name NVARCHAR(255),         -- Nombre de la sucursal
 );
